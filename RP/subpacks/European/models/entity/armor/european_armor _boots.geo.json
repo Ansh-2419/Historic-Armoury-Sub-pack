@@ -1,0 +1,61 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.european_boots_1",
+				"texture_width": 72,
+				"texture_height": 72,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "rightLeg",
+					"pivot": [-1.9, 12, 0],
+					"cubes": [
+						{
+							"origin": [-3.9, 0, -2],
+							"size": [4, 6, 4],
+							"inflate": 0.25,
+							"uv": {
+								"north": {"uv": [28, 42], "uv_size": [4, 6]},
+								"east": {"uv": [24, 42], "uv_size": [4, 6]},
+								"south": {"uv": [36, 42], "uv_size": [4, 6]},
+								"west": {"uv": [32, 42], "uv_size": [4, 6]},
+								"up": {"uv": [28, 32], "uv_size": [4, 4]},
+								"down": {"uv": [32, 36], "uv_size": [4, -4]}
+							}
+						},
+						{"origin": [-4.15, -0.25, -3], "size": [4.5, 2, 1], "uv": [20, 51]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"pivot": [1.9, 12, 0],
+					"cubes": [
+						{
+							"origin": [-0.1, 0, -2],
+							"size": [4, 6, 4],
+							"inflate": 0.25,
+							"uv": {
+								"north": {"uv": [44, 42], "uv_size": [4, 6]},
+								"east": {"uv": [40, 42], "uv_size": [4, 6]},
+								"south": {"uv": [52, 42], "uv_size": [4, 6]},
+								"west": {"uv": [48, 42], "uv_size": [4, 6]},
+								"up": {"uv": [44, 32], "uv_size": [4, 4]},
+								"down": {"uv": [48, 36], "uv_size": [4, -4]}
+							}
+						},
+						{"origin": [-0.35, -0.25, -3], "size": [4.5, 2, 1], "uv": [52, 26]}
+					]
+				}
+			]
+		}
+	]
+}

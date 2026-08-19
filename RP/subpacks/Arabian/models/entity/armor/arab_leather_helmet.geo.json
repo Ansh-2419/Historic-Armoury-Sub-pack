@@ -1,0 +1,69 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.arab_leather_helmet",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 12, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				},
+				{
+					"name": "head",
+					"parent": "waist",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 6, 8], "inflate": 0.7, "uv": [0, 16]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.6, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{
+							"origin": [-5, 19, -2],
+							"size": [10, 5, 4],
+							"inflate": 0.6,
+							"uv": {
+								"north": {"uv": [28, 34], "uv_size": [10, 3]},
+								"east": {"uv": [24, 34], "uv_size": [4, 3]},
+								"south": {"uv": [42, 34], "uv_size": [10, 3]},
+								"west": {"uv": [38, 34], "uv_size": [4, 3]},
+								"up": {"uv": [28, 30], "uv_size": [10, 4]},
+								"down": {"uv": [38, 34], "uv_size": [10, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "waist",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "leftArm",
+					"parent": "waist",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "rightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "leftLeg",
+					"pivot": [1.9, 12, 0]
+				}
+			]
+		}
+	]
+}

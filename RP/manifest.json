@@ -1,0 +1,81 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Historical Armor Pack",
+    "description": "Template",
+    "uuid": "c8bd9e62-c910-4555-8cff-92db945ca14f",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "0b4409f0-f957-4646-bc70-add68c6737d8",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "Default",
+      "name": "Default",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Japanese",
+      "name": "Japanese",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "European",
+      "name": "European",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Indian",
+      "name": "Indian",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Arabian",
+      "name": "Arabian",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Chinese",
+      "name": "Chinese",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Viking",
+      "name": "Viking",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Roman",
+      "name": "Roman",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Mongolian",
+      "name": "Mongolian",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Persian",
+      "name": "Persian",
+      "memory_tier": 0
+    }
+  ]
+}
